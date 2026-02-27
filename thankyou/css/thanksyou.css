@@ -1,0 +1,104 @@
+.register_form_pop_up_sec.register_thankyou_block.active {
+    display: block;
+}
+/* Thank you section pop up start */
+.card_thanks .card_header {
+    margin-top: 16px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.card_thanks .card_header .h3_bold {
+    margin-bottom: 0;
+    color: var(--theme-primary-color);
+}
+.card_thanks .h3_bold {
+    color: #fe5a37 !important;
+    font-size: min(max(25px, 2.08333vw), 40px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.96px;
+    text-transform: capitalize;
+}
+.card_thanks .h3 {
+    font-size: min(max(25px, 2.08333vw), 40px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: -0.96px;
+    text-transform: capitalize;
+    color: #000 !important;
+}
+.card_thanks p {
+    margin-bottom: 0;
+}
+.card_thanks_img {
+    width: 72px;
+    margin: min(max(16px, 1.04167vw), 20px) auto;
+}
+.card_thanks > * {
+    font-size: min(max(16px, 1.04167vw), 20px);
+    color: #4d4d4d;
+        text-align: center;
+    margin-top: 18px;
+    line-height: normal;
+}
+.card_thanks {
+    margin-top: min(max(20px, 1.30208vw), 25px);
+}
+
+/* Thank you section pop up end */
+
+
+/* Thank you section footer css start */
+.footer_card_thanks .footer_card_header {
+    margin-top: 16px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.footer_card_thanks .footer_card_header .h3_bold {
+    margin-bottom: 0;
+    color: var(--theme-primary-color);
+}
+.footer_card_thanks .h3_bold {
+    color: #fff !important;
+    font-size: min(max(25px, 2.08333vw), 40px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.96px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.footer_card_thanks .h3 {
+    font-size: min(max(25px, 1.5625vw), 30px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: -0.96px;
+    text-transform: capitalize;
+    color: #000 !important;
+}
+
+.footer_card_thanks p {
+    margin-bottom: 0;
+}
+.footer_card_thanks_img {
+    width: 72px;
+}
+.footer_card_thanks_img {
+    filter: brightness(0) invert(1);
+}
+.footer_card_thanks > * {
+    font-size: min(max(16px, 1.04167vw), 20px);
+    color: #4d4d4d;
+        text-align: center;
+    line-height: normal;
+}
+.footer_card_thanks.flex {
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Thank you section footer css end */
